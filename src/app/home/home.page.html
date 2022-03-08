@@ -7,6 +7,7 @@
 </ion-header>
 
 <ion-content padding>
+  <p>hello</p>
   <p *ngIf="isUserLoggedIn">Phone Number: {{userInfo.phoneNumber}}</p>
   <ion-button *ngIf="!isUserLoggedIn" (click)="register()">Register</ion-button> 
   <ion-button *ngIf="isUserLoggedIn"  (click)="logout()">logout</ion-button> 
